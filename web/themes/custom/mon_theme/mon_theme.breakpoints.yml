@@ -1,0 +1,23 @@
+mon_theme.mobile:
+  label: Mobile
+  mediaQuery: '(min-width: 0px) and (max-width: 767px)'
+  weight: 0
+  multipliers:
+    - 1x
+    - 2x
+
+mon_theme.tablet:
+  label: Tablet
+  mediaQuery: '(min-width: 768px) and (max-width: 1023px)'
+  weight: 1
+  multipliers:
+    - 1x
+    - 2x
+
+mon_theme.desktop:
+  label: Desktop
+  mediaQuery: '(min-width: 1024px)'
+  weight: 2
+  multipliers:
+    - 1x
+    - 2x
