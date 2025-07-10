@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'mydrupalsite'
           slot-name: 'Production'
-          package: .
+          package: ./web
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F3D44199EAED4FA79BD7FCD36C714301 }}
